@@ -7,7 +7,8 @@ This repository contains the schema, sample data, and queries for an e-commerce 
 - **schema.sql**: Contains the SQL commands to create the database schema.
 - **add_real_data.sql**: Contains the SQL commands to insert sample data into the database.more fake data or small smaple to test using it in file named: **add_fake_data.sql**,**add_sample.sql**
 - **queries.sql**: Contains SQL queries for various operations on the database.
--**categorytree_viewcreation.sql**: Contains a view for using Denormalization in category tree,dynamically generates the hierarchical data each time it's queried
+- **categorytree_viewcreation.sql**: Contains a view for using Denormalization in category tree,dynamically generates the hierarchical data each time it's queried.
+  
 ## Instructions
 
 1. Initialize the database schema:
@@ -24,7 +25,8 @@ This repository contains the schema, sample data, and queries for an e-commerce 
    \`\`\`
    psql -U postgres -f queries.sql
    \`\`\`
-" > README.md
+
+> README.md
 
 This repository contains the schema, sample data, and queries for an e-commerce database.
 
@@ -34,3 +36,5 @@ This repository contains the schema, sample data, and queries for an e-commerce 
    ```sh
    git clone https://github.com/yourusername/ecommerce-database.git
    cd ecommerce-database
+## ERD Schema
+![image](https://github.com/AhmedAzzu25/ecommerce-database/assets/58734270/66a5f0d7-5c79-4cf3-9929-e0f33c7bcfcf)
